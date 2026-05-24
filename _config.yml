@@ -18,20 +18,29 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Anastasiia's web-page
-# email: your-email@example.com
+title: Anastasiia Krokhina
+email: a.krokhina@chemoinformatics.simplelogin.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Hello, my name is Anastasiia. This is my web-page.
+  Hello, my name is Anastasiia. I am chemist conducting research in chemoinfromatics and materials informatics.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://anastasiiakrokhina.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 github_username: AnastasiiaKrokhina
 linkedin_username: anastasiia-k-68154824b
 
-# Build settings
-theme: minima
+# # Build settings
+# theme: minima
+# plugins:
+#   - jekyll-feed
+
+remote_theme: "mmistakes/minimal-mistakes"
 plugins:
-  - jekyll-feed
+  - jekyll-include-cache
+
+source "https://rubygems.org"
+
+gem "github-pages", group: :jekyll_plugins
+gem "jekyll-include-cache", group: :jekyll_plugins
 
 # Exclude from processing.
 # The following items will not be processed, by default.
