@@ -1,63 +1,67 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you:
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
+# title: Anastasiia Krokhina
+# name: Anastasiia Krokhina
+# email: a.krokhina@chemoinformatics.simplelogin.com
+# description: >- # this means to ignore newlines until "baseurl:"
+#   "Hello, my name is Anastasiia. I am chemist conducting research in chemoinfromatics and materials informatics. This is my web-page."
+# baseurl: "" # the subpath of your site, e.g. /blog
+# url: "https://anastasiiakrokhina.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 
-title: Anastasiia Krokhina
+# github_username: AnastasiiaKrokhina
+# linkedin_username: anastasiia-k-68154824b
+
+# # Build settings
+# theme: minimal-mistakes-jekyll
+# plugins:
+#   - jekyll-feed
+
+# remote_theme: "mmistakes/minimal-mistakes"
+# plugins:
+#   - jekyll-include-cache
+
+
+# # ------- SKIN --------
+# minimal_mistakes_skin: "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+
+
+title: Personal web-page
+name: Anastasiia Krokhina
 email: a.krokhina@chemoinformatics.simplelogin.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Hello, my name is Anastasiia. I am chemist conducting research in chemoinfromatics and materials informatics.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://anastasiiakrokhina.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
-# twitter_username: jekyllrb
+
+description: >-
+  Hello, my name is Anastasiia. I am a chemist conducting research in chemoinformatics and materials informatics. This is my webpage.
+
+baseurl: ""
+url: "https://anastasiiakrokhina.github.io"
+
 github_username: AnastasiiaKrokhina
 linkedin_username: anastasiia-k-68154824b
 
 # Build settings
-theme: theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes"
+
 plugins:
   - jekyll-feed
-
-remote_theme: "mmistakes/minimal-mistakes"
-plugins:
   - jekyll-include-cache
 
-# source "https://rubygems.org"
+# Minimal Mistakes skin
+minimal_mistakes_skin: "contrast"
 
-# gem "github-pages", group: :jekyll_plugins
-# gem "jekyll-include-cache", group: :jekyll_plugins
+author:
+  name: "Anastasiia Krokhina"
+  avatar: # optional, e.g. "/assets/images/profile.jpg"
+  bio: "Chemoinformatics and materials informatics"
+  location: "Germany"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:a.krokhina@chemoinformatics.simplelogin.com"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/anastasiia-k-68154824b/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/AnastasiiaKrokhina"
 
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+
+logo: ""
+masthead_title: "My Custom Title"
