@@ -1,6 +1,10 @@
 main:
   - title: "About"
-    url: https://anastasiiakrokhina.github.io/about
+    url: /
+  - title: "CV"
+    url: /cv/
+  - title: "Posts"
+    url: /posts/
 
 # # main links
 # main:
